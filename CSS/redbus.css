@@ -1,0 +1,365 @@
+.header {
+  margin-left: auto;
+    display: flex;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0.1px 0.1px 10px black;
+    z-index: 5;
+  }
+  
+  .hlogo,
+  .bus,
+  .train,
+  .service,
+  .user {
+    cursor: pointer;
+  }
+
+
+  
+  .hlogo {
+    margin-left: 150px;
+    /* margin-top: 15px; */
+  }
+  
+  .train:hover {
+    transition: ease-in-out;
+    background-color: lightgray;
+    position: relative;
+    filter: none;
+  }
+  
+  .user:hover {
+    background-color: lightgray;
+    border-radius: 15px;
+  }
+  
+  .service:hover {
+    background-color: lightgray;
+    /* border-radius: 15px; */
+  }
+  
+  .service {
+    height: 35px;
+    width: 85px;
+    border-radius: 15px;
+    position: relative;
+    top: 15px;
+    right: -650px;
+  }
+  
+  .bus {
+    margin-left: 120px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 85px;
+    border-radius: 10px;
+    background-color: #d84e55;
+    color: white;
+  }
+  
+  .train {
+    margin-left: 25px;
+    padding-top: 10px;
+    border-radius: 15px;
+    width: 90px;
+    filter: grayscale(1) brightness(0);
+  }
+  
+  .user {
+    position: relative;
+    top: 10px;
+    right: -700px;
+    height: 40px;
+    width: 130px;
+    margin-left: -60px;
+  }
+  
+  .bgim {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 100%;
+    background-image: url(../Assets/aa.png);
+    /* background-image: url('./Assets/road.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  
+  .loc {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 120px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+  }
+  
+  .from,
+  .to,
+  .calender,
+  .search {
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .date {
+    align-self: center;
+    font-size: 20px;
+  }
+  
+  .search {
+    width: 250px;
+  }
+  
+  .card {
+    background-image: linear-gradient(
+      71.04deg,
+      rgb(12, 57, 139) -6.92%,
+      rgb(62, 118, 216) 109.43%
+    );
+    color: white;
+    display: flex !important;
+    flex-direction: row;
+    height: 230px;
+    width: 400px;
+    border-radius: 20px !important;
+    align-items: center;
+    column-gap: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  .voff {
+    margin-left: 740px;
+    border: 0.2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 7px;
+    color: rgb(16, 52, 217);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+  }
+  .voff:hover {
+    cursor: pointer;
+    box-shadow: 0.5px 1px 5px black;
+  }
+  
+  .cdes {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  
+  .cardd {
+    border-radius: 50%;
+  }
+  
+  .toff {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+    width: 1200px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 0.5px 0.5px 1px black, -0.5px -0.5px 1px black;
+    background-color: white;
+  }
+  
+  .tro {
+    display: flex;
+    padding-top: 20px;
+    /* padding-bottom: 15px; */
+  }
+  
+  .cdes > div > p {
+    margin-top: -15px;
+  }
+  .now {
+    height: 500px;
+    width: 1200px;
+    margin-top: 30px;
+    margin: auto;
+    display: flex;
+  }
+  .nowte {
+    margin-top: 63px;
+  }
+  .partner {
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 150px;
+    height: 370px;
+    width: 1200px;
+  }
+  .partno {
+    font-size: 30px;
+    opacity: 0.8;
+  }
+  .pview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 980px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0.9;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .pim {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 90px;
+    cursor: pointer;
+  }
+  .pim:hover > p {
+    background-color: lightgray;
+    border-radius: 20px;
+  }
+  .pbus {
+    /* border: 2px solid black; */
+    height: 320px;
+    width: 1200px;
+    margin: auto;
+  }
+  .pv {
+    display: flex;
+    font-size: 18px;
+  }
+  .vall {
+    margin-left: 720px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    opacity: 0.9;
+    justify-content: center;
+  }
+  .vall:hover,
+  .pview:hover {
+    box-shadow: 0.5px 2px 10px rgb(113, 112, 112);
+    cursor: pointer;
+  }
+  .travels {
+    margin-top: 40px;
+    height: 220px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(4, 60px);
+  }
+  .travels > p {
+    font-weight: 600;
+  }
+  .travels > p:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: max-content;
+    height: fit-content;
+  }
+  .global {
+    height: 300px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+  }
+  .gc {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  .cou {
+    cursor: pointer;
+    height: 200px;
+    width: 150px;
+  }
+  .cou > img:hover + p {
+    background-color: lightgray;
+    border-radius: 20px;
+  }
+  .cs {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .bbto {
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+  }
+  .p > p,
+  .vv {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .bbr {
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+  }
+  
+  .cel {
+    border: 0.5px solid lightgray;
+    background-image: url("../Assets/celeb.jpg");
+    height: 150px;
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 200px;
+    cursor: pointer;
+  }
+  
+  .par {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 70px;
+  }
+  .sm {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .pp>img:hover{
+    cursor: pointer;
+  }
+  
+  .toff::-webkit-scrollbar {
+    display: none;
+}
